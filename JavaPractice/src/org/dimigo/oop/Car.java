@@ -9,7 +9,7 @@ package org.dimigo.oop;
  * Date : 2015. 4. 13.
  * </pre>
  *
- * @author	: Jong
+ * @author	: 김종현
  * @version : 1.0
  */
 
