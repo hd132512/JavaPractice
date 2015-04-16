@@ -9,7 +9,7 @@ package org.dimigo.oop;
  * </pre>
  *
  * @author	: 김종현
- * @version : 2.0
+ * @version : 3.0
  */
 
 public class CarTest {
@@ -38,9 +38,13 @@ public class CarTest {
 //		car3.setPrice(38000000);
 //		
 		
-		Car2 car1 = new Car2("현대자동차","제네시스","검정색",225,50000000);
-		Car2 car2 = new Car2("기아자동차","K7","흰색",246,40000000);
-		Car2 car3 = new Car2("삼성자동차","SM7","회색",200,38000000);
+//		Car2 car1 = new Car2("현대자동차","제네시스","검정색",225,50000000);
+//		Car2 car2 = new Car2("기아자동차","K7","흰색",246,40000000);
+//		Car2 car3 = new Car2("삼성자동차","SM7","회색",200,38000000);
+		
+		Car3 car1 = new Car3("현대자동차","제네시스","검정색",225,50000000);
+		Car3 car2 = new Car3("기아자동차","K7","흰색",246);
+		Car3 car3 = new Car3("삼성자동차","SM7","회색");
 		
 		System.out.println("<<자동차 목록>>");
 		
