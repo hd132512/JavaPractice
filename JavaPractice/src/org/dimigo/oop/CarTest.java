@@ -5,11 +5,11 @@ package org.dimigo.oop;
  *   _ Test
  * 
  * About :
- * Date : 2015. 4. 13.
+ * Date : 2015. 4. 16.
  * </pre>
  *
  * @author	: 김종현
- * @version : 1.0
+ * @version : 2.0
  */
 
 public class CarTest {
