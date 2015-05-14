@@ -39,7 +39,7 @@ public class Score {
 				.append(kor)
 				.append(" 점\n수학 점수 :")
 				.append(mat)
-				.append(" 점\n 영어 점수 :")
+				.append(" 점\n영어 점수 :")
 				.append(eng)
 				.append(" 점\n총점 : ")
 				.append(kor+mat+eng)
