@@ -23,6 +23,7 @@ public class FamilyMember {
 	public FamilyMember(String Name)
 	{
 		this.memberName = Name;
+		memberCnt++;
 	}
 
 	public String getMemberName() {
