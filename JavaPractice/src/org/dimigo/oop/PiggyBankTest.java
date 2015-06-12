@@ -33,7 +33,7 @@ public class PiggyBankTest {
 		
 		PiggyBank.printBalance();
 		
-		PiggyBank.putMoney(fa[3], 1000);
+		PiggyBank.putMoney(fa[2], 1000);
 		
 		PiggyBank.printBalance();
 
