@@ -36,7 +36,7 @@ public class PiggyBankTest {
 		PiggyBank.printBalance();
 		
 		PiggyBank.putMoney(fa[2], 1000);
-		
+		PiggyBank.stillMoney(fa[3],1000);
 		PiggyBank.printBalance();
 
 	}
