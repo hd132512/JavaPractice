@@ -28,6 +28,25 @@ public class FigureTest {
 		System.out.println("원의 넓이 : " + String.format("%.1f", c.clacArea()));
 		System.out.println("삼각형 넓이 : " + String.format("%.1f", t.clacArea()));
 		System.out.println("사각형 넓이 : " + String.format("%.1f", r.clacArea()));
+		
+		System.out.println();
+		
+		c.printCenter();
+		t.printCenter();
+		r.printCenter();
+		
+		System.out.println("\n--중심좌표 이동 (x,y축 5씩)\n");
+		
+		int m=5;
+		
+		c.moveFigure(m, m);
+		t.moveFigure(m, m);
+		r.moveFigure(m, m);
+		
+		c.printCenter();
+		t.printCenter();
+		r.printCenter();
+		
 	}
 
 }

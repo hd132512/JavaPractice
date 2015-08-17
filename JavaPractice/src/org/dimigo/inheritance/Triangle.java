@@ -35,5 +35,10 @@ public class Triangle extends Figure {
 	protected double clacArea(){
 		return width * height /2;
 	}
+	
+	protected void printCenter(){
+		System.out.print("삼각형 ");
+		super.printCenter();
+	}
 
 }
