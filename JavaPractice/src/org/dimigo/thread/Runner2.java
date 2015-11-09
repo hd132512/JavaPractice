@@ -14,14 +14,14 @@ package org.dimigo.thread;
  * @author	: 김종현
  * @version : 1.0
  */
-public class Runner extends Thread{
+public class Runner2 implements Runnable{
 	private String name;
 
-	public Runner() {
+	public Runner2() {
 		
 	}
 	
-	public Runner(String name) {
+	public Runner2(String name) {
 		super();
 		this.name = name;
 	}

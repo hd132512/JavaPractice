@@ -14,7 +14,7 @@ package org.dimigo.thread;
  * @author	: 김종현
  * @version : 1.0
  */
-public class Race {
+public class Race2 {
 
 	/**
 	 * @param args
@@ -23,8 +23,8 @@ public class Race {
 		// TODO Auto-generated method stub
 		
 		System.out.println("main thread start");
-		Thread t1 = new Runner("김종현");
-		Thread t2 = new Runner("김현성");
+		Thread t1 = new Thread(new Runner2("김종현"));
+		Thread t2 = new Thread(new Runner2("김현성"));
 		
 		t1.setPriority(Thread.MAX_PRIORITY);
 		t2.setPriority(Thread.MIN_PRIORITY);
